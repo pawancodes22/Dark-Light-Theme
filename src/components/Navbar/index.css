@@ -1,0 +1,59 @@
+/* Write your CSS here */
+
+.nav-bg {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 60px;
+  font-family: 'Roboto';
+  align-items: center;
+}
+
+.nav-buttons-container {
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav-link-style {
+  text-decoration: none;
+  color: #171f46;
+  font-weight: 700;
+}
+
+.nav-img-style {
+  height: 50px;
+  width: 50px;
+}
+
+.button-bg-remove {
+  background-color: transparent;
+  border-style: none;
+}
+
+.nav-dark {
+  background-color: #333333;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .nav-bg {
+    padding: 5px 30px;
+  }
+
+  .nav-buttons-container {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+  }
+
+  .nav-img-style {
+    height: 40px;
+    width: 40px;
+  }
+}
